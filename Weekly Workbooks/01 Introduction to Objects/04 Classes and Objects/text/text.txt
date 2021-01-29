@@ -1,0 +1,24 @@
+Classes and Objects are the fundamental building blocks of Object Oriented code.
+View the slides and video above to see an overview of these constructs.  
+
+Hover over this <img src="answer.jpg" title="The substring is: 01" style="vertical-align:bottom" /> button
+to reveal the solution to the problem posed at the end of the video lecture ! Note that the green "Substring"
+at the bottom of the last slides _isn't_ the solution, but was a _link to the solution_ (for use in the lecture).
+
+Once you are happy with the concepts presented in the lecture, attempt the following practical activity to test your knowledge.
+
+Create a file called "Triangle.java" and in this, write a class called `Triangle` (to represent a two dimensional triangular shape). This class should have a single constructor method that takes three integer parameters (the length of each side of the triangle). Your class should also have a method called `getLongestSide` that returns the length of the longest side of the triangle.  
+
+
+Test your code by adding a `main` method to your `Triangle` class. Make sure the signature of your `main` method exactly matches the example from the "HelloWorld" program - if you don't, Java won't recognise it as a `main` method. Inside this `main` method, create a number of different instances of `Triangle`, each with different length sides. Check that your `getLongestSide` method operates as expected. For example, you might use the following code:
+``` java
+Triangle testTriangle = new Triangle(5, 7, 9);
+int longestSide = testTriangle.getLongestSide();
+System.out.println("The longest side of the triangle is " + longestSide);
+```
+
+Notice how in the above code you can "glue" separate Strings together in Java by using the `+` concatenation operator.
+Java will even let you concatenate different types together (in the above example, a `String` and an `int`)
+
+Now use this knowledge to add a `toString` method to your Triangle class that returns a String describing the Triangle
+(e.g. "This is a Triangle with sides of length 4, 5, 7")

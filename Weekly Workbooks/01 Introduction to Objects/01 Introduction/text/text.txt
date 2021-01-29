@@ -1,0 +1,15 @@
+Welcome to this first practical workbook for the Object Oriented Programming with Java unit.
+The aim of these workbooks is to present key theoretical concepts that underlie the unit and 
+give you the opportunity to apply these in practical exercises.
+
+Where you see the blue "Slides" and "Video" buttons at the top of a section, 
+you should view these _before_ attempting the practical activities described in that section. 
+You should do this now for this current section - this will present an introduction to
+Java and provide you with a high-level understanding of the nature of Object Orientation.
+Note that it is easier to clone these workbooks and view them locally on your own computer
+(rather than trying to browse them online via the GitHub site).
+
+Java is a very popular and marketable programming language. Before moving on to the
+main tasks in this workbook, you might like to watch 
+<a href="https://www.youtube.com/watch?v=Og847HVwRSI" target="_blank">this animation</a>
+to see how Java's popularity has changed over the years.

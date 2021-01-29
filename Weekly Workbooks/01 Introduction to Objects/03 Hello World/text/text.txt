@@ -1,0 +1,6 @@
+The first program that you write in most languages is "Hello World". Take a look at the slide and video above that describe "Hello World" in java. Then copy and paste the code (from the slide) into a file called `HelloWorld.java` (note that you can edit java code with any editor you like, although we do recommend Intellij)
+It is worth remembering that all Java source code files **must** have a `.java` extension.
+
+To compile your source code file into bytecode, you will need to run `javac HelloWorld.java` on the command line (assuming you have java installed and on your path !) This produces a bytecode file with a `.class` extension. Then to run the program you use `java HelloWorld`. Try this now for your "Hello World" program to make sure you can compile and run java code.
+
+Even if you plan to use an IDE (such as IntelliJ) for programming on this unit, it would still be a good idea to use the command line to compile "Hello World" - if only to get a feel for the process.

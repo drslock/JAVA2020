@@ -1,0 +1,2 @@
+If you are struggling to get Java installed and working on your computer, 
+you might like to consider <a href="https://uob.sharepoint.com/sites/itservices/SitePages/fits-engineering-linux-ssh.aspx" target="_blank">remote login</a> to the lab machines to compile and run "Hello World" (since these machines have everything already setup for you).

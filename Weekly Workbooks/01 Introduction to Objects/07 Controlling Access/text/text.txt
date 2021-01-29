@@ -1,0 +1,3 @@
+It is no good being able to store the colour of a shape if there is no way to access it ! After all, how would we draw a shape if there was no way to find out what colour it was ? Take a look at the slides and video above to find out why we need to be careful when providing access to encapsulated data. Using this knowledge, add `setColour` and `getColour` methods to the `TwoDimensionalShape` class.
+
+As programmers, we have a lot of control over the access to our variables, methods and classes. Check out the "PRO" video above for more datails about the options available.

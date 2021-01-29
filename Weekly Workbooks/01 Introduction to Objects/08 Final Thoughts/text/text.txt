@@ -1,0 +1,1 @@
+Note that the `StyledString` examples shown in the lecture slides and discussed in the videos is just a _theoretical_ example - in reality Java would not let us do this ! The String class is "final" which means that we are unable to extend it and add features.

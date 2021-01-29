@@ -1,0 +1,6 @@
+As you will see from the slides and audio narration above, encapsulation is a key concept in Object Oriented programming. Let us explore this notion of encapsulation by adding some internal state to our project. In addition to a number of edges, all shapes also have a colour. Add a new variable to the `TwoDimensionalShape` class that allows the shape's colour to be stored. To help you in this task, we have provided you with a <a href="code/Colour.java" target="_blank">Colour</a> class. If you add this class to your project, you will be able to use it in the following way:
+```java
+Colour firstColour = Colour.RED;
+Colour secondColour = Colour.YELLOW;
+Colour thirdColour = Colour.WHITE;
+```

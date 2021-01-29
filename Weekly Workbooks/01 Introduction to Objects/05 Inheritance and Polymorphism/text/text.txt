@@ -1,0 +1,20 @@
+View the slides and video above to gain an understanding of the concept of Inheritance. Then attempt the following task which will add to your existing project. The "PRO" slides and video aren't required to complete the exercise, but provides some deeper and more complex information regarding inheritance.
+Note that code fragments from the "PRO" segment can be found by following <a href="pro-code.zip" target="_blank">this link</a>.
+
+There are many different types of shape in the world (in addition to just triangles !) We have created a simple hierarchy of shapes for you that includes a <a href="code/Circle.java" target="_blank">Circle</a> and a <a href="code/Rectangle.java" target="_blank">Rectangle</a> - both of these share a super class called
+<a href="code/TwoDimensionalShape.java" target="_blank">TwoDimensionalShape</a> (from which all 2D shapes inherit).
+
+Add these three classes to your project and then integrate your existing `Triangle` class into the class hierarchy (by using the `extends` keyword in your `Triangle` class to link it to the `TwoDimensionalShape` class). In order to successfully integrate `Triangle` class into the class hierarchy, you will need to add the following two methods (don't worry too much about these right now, just copy and pasted them into your `Triangle` class - we will return to them in next week's workbook !):
+
+```java
+public double calculateArea() {
+    return -1;
+}
+
+public int calculatePerimeterLength() {
+    return -1;
+}
+
+```
+
+The slides and video above discussed the notion of Polymorphism - let us explore this concept in your code. Create a variable that can hold an instance of the `TwoDimensionalShape` class - then try to fill this variable with each type of shape in turn (Circles, Rectangles and Triangles). Each time, print the content of the variable - just to show what type it currently holds.
