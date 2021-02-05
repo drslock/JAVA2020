@@ -1,0 +1,22 @@
+Some shapes (such as Circles) come in only one variant - a Circle is a Circle !
+Other shapes (such as Triangles) can be a range of different variants (Isosceles, Right-angle, Equilateral etc).
+We could create a range of subclasses of the `Triangle` class to represent these, however this might be overkill
+(it is possible to over-use inheritance). These various sub-classes wouldn't have any additional attributes or methods,
+so we could end up with a lot of almost empty files - clearly unnecessary complexity in our file system !
+
+Instead, we will use this opportunity to explore another feature of Java - "enumerations".
+In Java there is an enumeration mechanism (very much like that in C).
+This allows us to declare a predefined list of values that a variable can hold.
+Take a look at the video above (from our guest presenter !) to find out more details regarding
+exceptions before going on to attempt the task below.
+
+Extend your Triangle Class in order to make it "self-aware": so that it will _know_ what kind of triangle it is.
+We aren't going to actually _tell_ the triangle what variant it is, the triangle will work it out for itself
+(based on the length of the sides passed into the constructor).
+So, add some code to your Triangle constructor method so that it works out what kind it is.
+We have provided you with an enumeration called <a href="code/TriangleVariant.java" target="_blank">TriangleVariant</a>
+that can be used to differentiate between the various triangle variants.
+Once you triangle has worked out what variant it is, store the result in a private variable of type `TriangleVariant`.
+
+You will get the opportunity to fully and systematically test your code in the next section.
+For the time being, just try to ensure that your code works with as many different triangle variants as possible.

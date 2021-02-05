@@ -1,0 +1,3 @@
+To help you classify some of your triangles, you might like to make use of the `getLongestSide` method your wrote previously !
+
+Create a multi-branch IF statement that will allow the triangle to decide what kind it is. The order of the branches of the IF statements will be very important. Check for specific/special cases at the top, with more general cases at the bottom (you'll soon understand why later !)

@@ -1,0 +1,15 @@
+An inspection of the code inside the `TwoDimensionalShape` class shows that there are two "abstract" methods.
+These are methods without implementations (i.e. methods with no internal code).
+View the slides and video lecture above to find out more about the notion of "abstract".
+The video discusses the use of "abstract" in implementing lists - don't worry too much about these for the moment !
+We mention lists briefly here for completeness - will we revisit them again in more detail later on in this unit.
+
+Inside your Triangle class, complete the `calculateArea` and `calculatePerimeterLength` methods that you added
+during the previous workbook. Inside each you should perform a suitable calculation and return the result.
+These two methods will "override" the abstract ones defined in the `TwoDimensionalShape` class.
+The reason that these are defined as "abstract" in the `TwoDimensionalShape` class is that: all shapes
+_will_ have an area and perimeter length, but each shape will calculate these differently
+(so we can't write anything sensible inside the `TwoDimensionalShape` class).
+
+Once you have implemented area and perimeter calculation methods for your Triangle class, create a few
+Triangles with different length sides and call your newly created methods to make sure they work correctly.

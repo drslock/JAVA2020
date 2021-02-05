@@ -1,0 +1,2 @@
+You might like to use <a href="https://www.mathsisfun.com/geometry/herons-formula.html" target="_blank">Herons Formula</a>
+to calculate the area of a triangle. The perimeter length is easy !

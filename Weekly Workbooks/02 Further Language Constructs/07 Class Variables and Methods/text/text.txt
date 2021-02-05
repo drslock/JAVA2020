@@ -1,0 +1,22 @@
+In the previous task, we counted the number of Triangles in the array whilst looping through it.
+But there is an alternative way to do this (without putting code inside the loop).
+We can maintain a counter of how many Triangles have been created _inside_ the Triangle class itself
+(incrementing this each time one is instantiated).
+But their is a problem - we only want _one_ counter for the whole programme
+(not a counter for each and every Triangle)
+
+View the slides and audio narration above to gain an understanding of the difference
+between _instance_ and _class_ variables. Then add an integer _class_ variable to your Triangle class to
+keep track of how many Triangles have been created (don't forget to increment this in the constructor !).
+Add a `getPopulation` method to your Triangle class that returns the current value of this counter variable.
+
+Update your main method, so that it prints out the number of Triangles that existing using
+this population counter _as well as_ the previous counter inside the loop
+(just to make sure both counters agree !)
+
+Just as we can create _class variables_ that are associated with the class (rather than each instance),
+we can also write _class methods_ which are similarly associated with the class (not the instances).
+You have already encountered just such a class method (namely the `random` method of the `Math` class).
+Have a think about why you might wish to write a class method, rather than an instance method.
+Considering the Triangle class - might some of its methods be better suited to being _class_ methods,
+rather than _instance_ methods ?

@@ -1,0 +1,9 @@
+In order to fill your array with a random selection of shapes, you may like to make use of the Java "Random" method:
+
+`Math.random()`
+
+This will return a randomly selected double precision floating point number (between 0.0 and 1.0).
+You will need to write an IF statement to look at this number and decide which shape to create.
+
+In order to count the number of triangles, you'll need an integer counter variable.
+You might also like to make use the `instanceof` operator !

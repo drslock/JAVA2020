@@ -1,0 +1,10 @@
+Arrays in Java are very similar to those in C. In Java, they can hold primatives
+(e.g. `int`, `float`, `char`, `boolean` etc)
+but also complex Objects such as Strings, Robots or even Triangles !
+
+Take a look at the video segments above for more information on arrays in Java.
+Then (in you main method) create an array of 100 elements that can hold `TwoDimentionalShapes`.
+Fill this array with randomly chosen shapes (Circles, Rectangles, Triangles).
+
+Once you have filled the array with 100 shapes, loop through it and print details of each shape.
+At the end of your program, print out a summary of how many Triangles were encountered in the array.

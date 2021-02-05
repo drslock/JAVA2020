@@ -1,0 +1,32 @@
+As we have discussed previously, some shapes may have different variants,
+whilst others (such as Circles) only have one. What we need is some kind of marker that indicates
+whether or not a particular class of shape has multiple variants.
+
+One way to do this is using a Java "Interface" - this is a mechanism, independent of the class hierarchy,
+that allows us to mark classes as having particular characteristics. You can think of an Interface as a contract
+that the class "agrees to" and guarantees to provide certain properties and features.
+Take a look at the slides and video above for more detailed information on interfaces.
+
+As an illustration of interfaces in action, we have provided a
+<a href="code/MultiVariantShape.java" target="_blank">MultiVariantShape</a> interface that can be used to
+indicate that a shape has more than one variant.
+We would use this interface to mark our `Triangle` class like so:
+``` java
+class Triangle extends TwoDimensionalShape implements MultiVariantShape
+```
+
+We can test to see if an object conforms to an interface by using the Java `instanceof` keyword
+(I know this is not a particularly suitable name, but it is reused from another part of Java).
+So, for example, we can test any shape to see if it implements the `MultiVariantShape` interface
+using the following code:
+``` java
+if(shape instanceof MultiVariantShape) System.out.println("This shape has multiple variants")
+else System.out.println("This shape has only one variant")
+```
+
+You may have noticed that the `MultiVariantShape` interface defines a method called `getVariant`
+that returns the variant of a shape. This allows code outside of the class to interrogate an instance
+in order to find out what variant it is. You will also notice that their is no internal code that
+provides an implementation of this method - it is the programmer's job to write this !
+Add a method to your class called `getVariant` that returns the `TriangleVariant` that you
+calculated and stored in the previous task.

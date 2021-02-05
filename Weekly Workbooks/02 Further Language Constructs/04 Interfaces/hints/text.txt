@@ -1,0 +1,12 @@
+We have provided a <a href="code/TriangleTester.java" target="_blank">TriangleTester</a>
+class that contains a variety of test cases to help you develop your class.
+The test class makes use of "Assertions" so you will need to enable these when you run the test
+class by using the following on the command line: `java -ea TriangleTester`
+(or by adding `-ea` to the command line parameters of your IDE).
+
+When testing your code using the testing class, focus on each type of triangle in turn
+(first Equilateral, then Isosceles, then Scalene etc.). Make sure your code passes all of the tests
+for that type before moving on to the next.
+
+The final group of tests (to do with overflow) are more difficult, so leave those until the end.
+These may require you to refactor your code a fair bit (depending on how you wrote it in the first place) !

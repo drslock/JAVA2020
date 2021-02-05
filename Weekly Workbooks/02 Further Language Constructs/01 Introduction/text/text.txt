@@ -1,0 +1,5 @@
+The aim of this session is to introduce further features of the Java programming language.
+Each section provides some teaching materials (typically written material, slides and video)
+that introduces a concept, as well as an activity to undertake that will allow you to apply your
+freshly-gained knowledge. In this workbook we continue with the triangle exercise from last week
+and you will get the opportunity to extend it with additional features and functionality.
