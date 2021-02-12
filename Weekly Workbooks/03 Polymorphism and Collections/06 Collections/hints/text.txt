@@ -1,0 +1,2 @@
+In order to make the change from arrays to ArrayLists you are going to need to change the
+declaration and initialisation of the `cells` variable, as well as the cell owner "getter" and "setter" methods.

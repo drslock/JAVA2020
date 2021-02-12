@@ -1,0 +1,9 @@
+Java provides a number of very useful compound data structures in the _Collections_ package.
+These all make use of the Generics mechanism outlined previously.
+Watch the video linked to above for an introduction into the _Collections_ package.
+Use this knowledge to convert the board grid data structure in the `OXOModel` class from an Array to an
+<a href="https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/util/ArrayList.html" target="_blank">ArrayList</a>.
+
+Note that there is no need to test dynamically changing the board size at this stage.
+Reimplementing the `OXOModel` with `ArrayLists` is enough for the time being.
+You will get to test your changes to the `OXOModel` in the next section...

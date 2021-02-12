@@ -1,0 +1,26 @@
+The Model-View-Controller (MVC) "pattern" is a common structural convention that is used widely in the development of
+interactive systems. You have been provided with an <a href="code/" target="_blank">MVC template</a> for the OXO project to help get you started !
+
+Take a look at the slides and video above for an introduction to the concept of the Model-View-Controller pattern,
+then use the knowledge gained to explore the template of the OXO game.
+
+The `OXOModel` class contains the core data structures for the game - you can use the public methods
+provided by this class to manipulate the following internal state of the game:
+
+- The list of players currently playing the game (2 in a standard game !)
+- The player whose current turn it is
+- The winner of the game (when the game ends)
+- Whether or not the game has been drawn (all cells are filled, but no one won !)
+- The "owner" (player who has claimed) each cell in the game grid
+- The number of cells in a row required to win the game (3 in a standard game)
+
+Your main task is to implement the "Event Handling Logic" in the `OXOCOntroller`.
+Note that the "Rendering Logic" is handled for you - any changes to the state of the `OXOModel`
+will be automatically rendered in the `OXOView`. As a consequence of this,
+you will NOT need to interface directly to the `OXOView` class from your `OXOController`.
+
+You may alter the `OXOController` and `OXOModel` classes, however 
+you should NOT change the existing method signatures
+(if you change the method names or parameters, you may break the marking scripts !)
+You should NOT alter the `OXOView` class at all.
+The remaining tasks in this (and next) weeks' workbooks will lead you through the features that you need to implement.

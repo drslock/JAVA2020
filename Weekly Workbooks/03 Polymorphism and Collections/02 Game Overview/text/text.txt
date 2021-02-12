@@ -1,0 +1,4 @@
+Your aim in this assignment is to build a digital version of the classic turn-taking game
+"Noughts and Crosses" / "Tic-Tac-Toe" / "OXO". You will not be required to construct the entire game.
+The Graphical User Interface (see screenshot below) and the core Data Model classes will be provided for you.
+You will however be required to write the "Controller" that handles all of the game logic.

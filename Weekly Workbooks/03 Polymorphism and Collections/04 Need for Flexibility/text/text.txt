@@ -1,0 +1,15 @@
+Clearly, the core data class of the OXO application (`OXOModel`) is going to need some kind of 2-dimensional
+data structure in order to store the current state of the board at any particular time.
+As you can see from the `OXOModel` you have been given, we have used a simple 2D array.
+
+There is however a problem in that this commits us a particular sized board (e.g. 3x3).
+It would be nice to be able to change the size of the board _during_ a game !
+For example, if all of the cells of the board were filled and the game was drawn,
+the board size could be increased in order to allow play to be continued
+(and hopefully a winner might eventually triumph !)
+
+Luckily there are some dynamic data types (e.g. Queues, Stacks,  Lists etc.)
+provided by some of the core Java libraries that allow us to store dynamically sized groups of Objects.
+There is however a problem with these compound classes when it comes to the storage
+and retrieval of the Objects stored in them.
+Take a look at the video above to gain an understanding of the causes and implications of these issues.

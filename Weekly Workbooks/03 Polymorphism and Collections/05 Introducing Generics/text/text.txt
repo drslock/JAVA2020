@@ -1,0 +1,4 @@
+One solution to the problems identified in the previous section is a Java mechanism called _Generics_.
+This mechanism allows us to designate a particular compound data structure to hold a specific object type.
+This allows us to make use of untyped data structures, whilst at the same time enforcing type checking at compile time.
+View the video above to gain an understanding of how the use of generics achieves this.

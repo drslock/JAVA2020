@@ -1,0 +1,15 @@
+In order to fully test out your changes to the `OXOModel` class we need to actually play a game - so in this task
+you will make the game interactive ! Players will take it in turns to enter desired cell position
+into the `OXOView` GUI window (see video above). Note that the order of player turns should be the same as the order that players
+have been added to the model (i.e. the first player added to the game will take the first go, followed by the second)
+
+A cell position consists of the row letter and the column number of the cell a player wishes to "claim".
+For example, if a user wished to claim the centre cell of a 3x3 board, they would type: `b2`.
+Cell identifiers entered via the `OXOView` will be automatically passed to the `OXOController`
+(via a call to the `handleIncomingCommand` method).
+
+Note that you should set the "current player" to be the player _whose turn it is next_, so that the view shows graphically the player who is about to take a turn.
+
+It is possible that the user may make a mistake when interacting with the system and enter a "bad" cell identifier.
+Do not try to deal with these here - we will address error handling in the next workbook.
+For the time being, you may assume that any cell identifiers entered by the user are always valid.
