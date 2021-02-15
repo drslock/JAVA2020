@@ -1,0 +1,9 @@
+In order to successfully implement the hierarchy of exceptions shown in the previous section,
+you are going to need to be able to refer to the parent of a particular class.
+Not only that, but you will need to be able to call the constructor method of that class.
+View the above videos on the `super` keyword and constructor chaining in order to find out how to do this.
+
+Implement a constructor method for each class in your exception hierarchy. For each exception
+class, you should also write a `toString` method that returns a suitable description of that exception.
+This message will be used later to provide feedback to the user - so try to make it as informative as possible.
+In the message you should include as much detail about the error as possible.

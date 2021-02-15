@@ -1,0 +1,12 @@
+Add appropriate input checking features to your `handleIncomingCommand` method to trap any
+invalid inputs entered by the user. When an error is detected, you should instantiate and
+then "throw" the relevant exception, (depending on the type of input error that has been made).
+The `OXOView` will then "catch" these exceptions and print out a relevant error message to the command line as feedback to the user.
+
+You may assume a maximum grid size of 9x9 (rows `a`-`i` and columns `1`-`9`)
+so that a cell identifier can only ever be two characters long.
+Note that your code should accept upper as well as lower case row characters
+(e.g. `A1` and `a1` are equivalent and both acceptable).
+
+Test your program by playing a game and entering a range of erroneous inputs,
+Making sure that all errors are trapped and reported.

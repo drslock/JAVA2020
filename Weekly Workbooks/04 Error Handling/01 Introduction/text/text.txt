@@ -1,0 +1,8 @@
+In this workbook, we will extend the OXO game that you started last week.
+Currently it is possible for a user to make a mistake and input a "bad" cell identifier
+(for example, a cell that doesn't exist or one that is already taken by another player)
+
+On receiving a cell position, your code should check to make sure the specified cell is valid
+before allowing the player to claim that cell. If the cell position is not valid, your code
+should prevent the move from taking place and should then notify the game application
+that an error has occurred. In Java there is a special mechanism for handling these kinds of errors...

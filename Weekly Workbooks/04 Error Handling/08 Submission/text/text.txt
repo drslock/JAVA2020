@@ -1,0 +1,18 @@
+No test file is provided for this assignment...
+You are becoming experienced programmers now and should be writing your own.
+You should write a suite of tests to help you develop your application.
+You might like to use the test classes from previous assignments as a template.
+
+This assignment IS assessed: go to "Assessment, submission and feedback" on Blackboard to submit
+(You should also visit this page to check the deadline for submission !)
+It is essential that you ensure your code compiles and runs before you submit it
+(otherwise we will not be able to run it to mark it !)
+
+It is VERY important that you do NOT change the name of any of the classes methods that
+you have been given. Scripts will be used to automatically test your code to make sure
+it operates correctly - if you change the names (or parameters) we won't be able to test your code !
+
+Note also that you should not have made any permanent changes to the
+`OXOView`, `OXOGame` or `OXOPlayer` classes.
+These will get replaced during the marking process, so you shouldn't be relying on any code
+that you have added to them !

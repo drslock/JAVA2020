@@ -1,0 +1,4 @@
+As an extension to the standard game, why not implement support for more than two players ?
+There is no need to alter the `OXOView` to allow interactive selection of the number of players.
+To test your extended game, just add extra players to the model when your `OXOController`
+is instantiated.

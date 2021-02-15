@@ -1,0 +1,2 @@
+abstraction-generics.pdf 6 6
+abstraction-generics.pdf 11 11

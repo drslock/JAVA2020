@@ -1,0 +1,16 @@
+In this task, we will implement the user input error handling mechanism for the OXO game.
+In order to do this, we will first need to appreciate the range of the different types of user
+input error that are possible. These include:
+
+- Already Taken: The specified cell exists, but it has already been claimed by a player
+- Outside Range: The identifiers are valid characters, but they are out of range (i.e. too big or too small)
+- Invalid Identifier Length: The identifier consists of more than two characters
+- Invalid Identifier Character: The row and/or column characters are not valid (e.g. punctuation marks)
+
+View the videos above for an introduction to how inheritance is represented in the "Unified Modelling Language".
+With this understanding, take a look at the inheritance hierarchy shown in the
+diagram below - this represents the range of different user input errors that might occur during an OXO game.
+
+You should recreate the below inheritance hierarchy in your code - note that in this section you should _only_ create the source
+code files and define the class names and "extends" relationships. You will get the opportunity to add the
+constructor methods in the following section.

@@ -1,0 +1,2 @@
+There is a folder in the template project called "OXOExceptions" where you should locate your exception classes.
+You might like to use the existing `OXOMoveException` class that is already in this folder as a template for your new classes. A `RowOrCol` class has been provided for you - this can be used to record which dimension (row coordinate or column coordinate) caused the error.

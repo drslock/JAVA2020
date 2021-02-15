@@ -1,0 +1,5 @@
+Handling of run-time errors in Java is achieved using _Exceptions_.
+These are a set of special classes and an error handling mechanism that is built into the language.
+View the two videos above in order to gain an understanding of the concept of exceptions and to
+see a demonstration of exceptions in action.
+Make sure you have a solid grasp of these concepts before moving on to the next section.
