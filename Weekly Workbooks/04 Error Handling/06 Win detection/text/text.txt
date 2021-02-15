@@ -3,7 +3,7 @@ Add code to your controller that will detect when a win has been achieved.
 You should check for wins in all directions (horizontally, vertically and diagonally).
 Horizontal, Vertical are relatively easy (Diagonals are a bit more tricky !)
 
-You should attempt to make your `OXOController as flexible and versatile as possible.
+You should attempt to make your `OXOController` as flexible and versatile as possible.
 It should therefore be able to perform win detection on grids of any size (not just 3x3).
 Remember that for bigger grids, it is possible to set the number of cells in a row required to win
 (the "Win Threshold"). This is done when initially instantiating the `OXOModel`, or by changing
