@@ -1,0 +1,33 @@
+View the slides and audio narration above to gain an understanding of the nature and impact of code complexity. With this knowledge in mind, consider the code fragment shown below. The sample code loops through a folder of images and loads each in turn into a 2D array of pixels. The code then scans through all the pixels in this 2D array and replaces the colours found using a look-up table (consisting of a pair of arrays). 
+
+``` java
+
+String[] folderContent;      // Initialised elsewhere
+Colour[] originalColours;    // Initialised elsewhere
+Colour[] replacementColours; // Initialised elsewhere
+
+for (String filename: folderContent) {
+    if((filename.endswith(".jpg")) || (filename.endswith(".JPG")) || (filename.endswith(".png")) || (filename.endswith(".PNG"))) {
+        Colour[][] pixelData = loadPixelData(filename);
+        for(int x=0; x<pixelData.length ;x++) {
+            for(int y=0; y<pixelData[0].length ;y++) {
+                for(int i=0; i<originalColours.length ;i++) {
+                    if(pixelData[x][y] == originalColours[i]) {
+                        pixelData[x][y] = replacementColours[i];
+                    }
+                }
+            }
+        }
+        savePixelData(pixelData, filename);
+    }
+}
+
+```
+
+Even though the code is fairly short, a method containing this code would have a Cyclomatic Complexity of 10 and a Depth-of-Nesting of 6 (both very high values). Think about how you might refactor this code to make this particular method less complex and therefore more readable. Hover your mouse over the <img src="answer.jpg" style="vertical-align:bottom" /> buttons below if you get stuck coming up with ideas !
+
+Possible improvements: 
+<img src="answer.jpg" title="You could put the tests for image file extensions into a method called &quot;isImageFile&quot; ?" style="vertical-align:bottom" />
+<img src="answer.jpg" title="What if you wrote a method called &quot;replaceAllPixels&quot; that took the 2D pixelData array as a parameter and did all of the looping ?" style="vertical-align:bottom" />
+<img src="answer.jpg" title="You could write a method called &quot;replaceSinglePixel&quot; that searched through the original colour array and then did a single replacement using the relevant colour from the replacement array" style="vertical-align:bottom" />
+<img src="answer.jpg" title="Using the pair of arrays for colour replacement is fairly ugly - you could use a better lookup table (such as a hash map)" style="vertical-align:bottom" />

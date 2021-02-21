@@ -1,0 +1,4 @@
+Writing good code is not just about correct operation - code may compile and pass all of the tests, but may still be _badly_ written ! The aim of this week's workbook is to give you an appreciation of code _quality_ both in terms of how to assess it and how to improve it. View the slides and audio narration above to gain an understanding of this general area. Then proceed with the tasks in this workbook in order to explore these areas in more detail.
+
+There are no explicit practical tasks for you to complete in this week's workbook. Rather, you should use the knowledge that you have gained from the material in each section to reflect upon your own Java programming practice. You should consider how you might improve the "quality" of your code as you progress into future assignments.
+

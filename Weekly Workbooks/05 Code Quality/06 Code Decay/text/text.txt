@@ -1,0 +1,1 @@
+View the slides and audio narration relating to code decay. It is hard to come up with a hands-on exercise for this task (since it addresses longer-term issues than can be covered in a compact activity). Issues of code decay may become directly relevant to your work later on in this unit - you may like to revisit this section at that point for advice on refactoring.

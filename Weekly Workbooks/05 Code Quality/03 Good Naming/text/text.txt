@@ -1,0 +1,15 @@
+Something as simple as choosing the right names for things can help greatly with the understandability of code. View the slides and audio narration above in order to see a discussion on the nature of naming. With this discussion in mind, take a look at the following list of method names and consider whether or not they are _good_ names. Hover your mouse over the <img src="answer.jpg" style="vertical-align:bottom" /> buttons to find out what we think of them !
+
+- clone <img src="answer.jpg" title="This is OK - it's a bit short and only one word, but has a specific meaning within the Java language (so everyone should understand it)" style="vertical-align:bottom" />
+- sort <img src="answer.jpg" title="This isn't very good - sort what ? sort by which order ?" style="vertical-align:bottom" />
+- search <img src="answer.jpg" title="Borderline - the parameter name might hint at what attribute is being used for the search, but a longer method name would definitely help !" style="vertical-align:bottom" />
+- getArray <img src="answer.jpg" title="This is bad - which array ? what does it contain ?" style="vertical-align:bottom" />
+- readData <img src="answer.jpg" title="Again, not very good - what data is this ?" style="vertical-align:bottom" />
+- getLatestAdditionToResourceList <img src="answer.jpg" title="Perhaps a little too long - you can go too far !" style="vertical-align:bottom" />
+- doTheThing <img src="answer.jpg" title="Could this BE any vaguer ??? Both noun and verb are non-specific !!!" style="vertical-align:bottom" />
+- calcNumDist <img src="answer.jpg" title="Abbreviations can lead to ambiguity - would whole words really have hurt that much ? What is this - C ?" style="vertical-align:bottom" />
+- getpixeldata <img src="answer.jpg" title="No capitalisation ! Can make the name hard to read - and it breaks the Java style guidelines" style="vertical-align:bottom" />
+- sort_by_date <img src="answer.jpg" title="Underscores have no place in Java names (this isn't python !)" style="vertical-align:bottom" />
+
+
+
