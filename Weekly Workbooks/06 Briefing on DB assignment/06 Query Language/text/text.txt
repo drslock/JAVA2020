@@ -1,0 +1,47 @@
+Now that you have a communication mechanism in place, we need something to transmit.
+You should implement a database query language based on a simplified version of SQL.
+This query language you should support the following keywords:
+
+- USE: changes the database against which the following queries will be run
+- CREATE: constructs a new database or table (depending on the provided parameters)
+- INSERT: adds a new entity to an existing table
+- SELECT: searches for entities that match the given condition
+- UPDATE: changes the data contained within a table
+- ALTER: changes the structure (rows) of an existing table
+- DELETE: removes entities that match the given condition from an existing table
+- DROP: removes a specified table from a database, or removes the entire database
+- AND / OR: allows conditions to be combined (makes use of parentheses to define ordering) 
+- LIKE: used for comparing partial substrings in conditions
+- JOIN: performs an **inner** join on two tables (returning all permutations of all matching entities)
+
+All of the above are reserved keywords and should NOT be used as names
+for databases, tables or attributes. It is not your responsibility to check for this - if the user
+chooses to use them for names, strange things may happen when they perform queries.
+
+A BNF grammar that defines our simplified version of SQL is provided in 
+<a href="resources/BNF.txt" target="_blank">this separate document</a>.
+Note that your server should be able to correctly parse incoming commands irrespective of
+the number of whitespace characters between tokens
+(i.e. `name=='Clive'` and `name == 'Clive'` are equivalent and should have the same effect).
+
+Your server should receive incoming messages, interrogate the data stored in the database
+and finally return an appropriate response to the client. 
+Your query interpreter should identify any errors in the construction of queries
+(for example queries not conforming to the BNF or queries that include unknown identifiers).
+When an error is detected, your sever should return an error message that provides the user
+with information about the nature of the issue.
+
+Note that because you are not required to maintain data type information for the attributes
+in a table, it will not be possible for you to validate the type of incoming data.
+It is therefore the responsibility of the user to ensure that only numerical data is stored in
+numerical attributes and string data is stored in string attributes etc.
+
+It is essential that the response returned from your server begins with either:
+- a success tag `[OK]` for valid queries or...
+- an error tag `[ERROR]` tag if the query is invalid (it does not conform to the query language BNF)
+or the database / table / attribute to which it refer does not exist.
+
+We have provided a <a href="resources/test-transcript.docx" target="_blank">
+transcript</a> containing some sample queries and expected responses to illustrate the 
+intended operation of the server. Note that these are not comprehensive - additional
+and alternative test cases may be used during the marking process.

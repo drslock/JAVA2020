@@ -1,0 +1,25 @@
+This workbook will lead you through an assessed exercise that has a weighting of 35%
+(i.e. it WILL contribute to your unit mark). 
+The aim of this assignment is to build a "homebrew" database server (from the ground up !).
+
+You are encouraged to discuss assignments and possible solutions with other students.
+HOWEVER it is essential that you only submit your own work.
+
+This may feel like a grey area, however if you adhere to the following advice, you should be fine:
+
+- Never exchange code with other students (via IM/email, GIT, forums, printouts, photos or any other means)
+- Although pair programming is encouraged in some circumstances, on this unit you must type your own work !
+- It's OK to seek help from online sources (e.g. Stack Overflow) but don't just cut-and-paste chunks of code...
+- If you don't understand what a line of code actually does, you shouldn't be submitting it !
+- Don't submit anything you couldn't re-implement under exam conditions (with a good textbook !)
+
+If you ask a question on a discussion forum, try to keep disussion at a high level
+(i.e. not pasting in chunks of your code). If it is unavoidable to include code, only share
+small snippets of the essential sections you need assistance with.
+
+An automated checker will be used to flag any incidences of possible plagiarism.
+If the markers feel that intentional plagiarism has actually taken place, marks may be deducted.
+In serious or extensive cases, the incident may be reported to the faculty plagiarism panel.
+This may result in a mark of zero for the assignment, or perhaps even the entire unit
+(if it is a repeat offence).
+Don't panic - if you stick to the above list of advice, you should remain safe !

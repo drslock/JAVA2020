@@ -1,0 +1,13 @@
+Your submission will be assessed on the success with which it implements the described query language,
+as well as the flexibility and robustness with which it operates.
+Your submission will also be assessed against the Code Quality metrics outlined earlier in the unit.
+
+This assignment IS assessed: you should visit the "Assessment, submission and feedback"
+section on this unit's blackboard page in order to submit your solution.
+It is essential that you ensure your code compiles and runs before you submit it
+(otherwise we will not be able to run it to mark it !)
+You should submit all of the files you have written to complete the task.
+
+Remember that your main class MUST be called `DBServer` and should provide a constructor with a single parameter (the port number on which to listen). Don't change the name of the class or the signatures of any of the methods that already exist (or we won't be able to test your code !). We will be using automated marking scripts and if you server does not conform to the above, we won't be able to run it !
+
+You should neither change, nor submit the `DBClient` class - this is purely to allow you to manually test your server.

@@ -1,0 +1,26 @@
+It is not the aim of this assignment to address the topic of network or socket programming.
+For this reason, the networking aspects of the server have been provided for you
+in <a href="resources/DBServer.java" target="_blank">this sample server</a>.
+You should integrate the code provided in this sample into your own DBServer application.
+
+When successfully implemented, your database server should listen on port
+8888 and receive incoming messages. At this stage in the assignment, your DBServer should
+not attempt to interpret the content of the incoming messages.
+Rather it should just return the content of all of the tables currently in your database
+(irrespective of what the incoming message contained).
+You should attempt to make the response as human-reader friendly as possible.
+
+To allow the client application to detect the end of a response, you should terminate
+the entire message with an "End of Transmission" (EOT) sequence.
+This consists of the EOT character (ASCII value 4) on a line on its own,
+after the content of the response. The sample server illustrates how to implement this in code.
+
+To help you ensure that your server conforms to the correct protocol, a 
+<a href="resources/DBClient.java" target="_blank">command-line client</a>
+has been provided for you. You should not change the code in the client,
+but rather use it to check that your server is operating correctly.
+During the marking process, this client will be discarded and replaced
+by an automated testing component.
+
+For the sake of simplicity, you may assume only a single client is connected at any one time.
+(i.e. there is no need to handle parallel queries or deal with issues of contention).

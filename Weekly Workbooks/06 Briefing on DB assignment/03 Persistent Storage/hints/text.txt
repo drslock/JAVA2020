@@ -1,0 +1,4 @@
+It is up to you if you want to store the element/column names in the top row of the data file (as illustrated in the sample data file) or separately in a special schema textfile.
+
+Note that it is not necessary to implement a type system within the database - 
+you can just store everything as text strings.

@@ -1,0 +1,24 @@
+In this workbook, you will build a relational database server from scratch.
+This database server will provide the following features:
+
+- To store Entity-Relationship data as a collection of files
+- To listen for incoming client requests to interrogate and manipulate the stored data
+- To conform to a standard query language that allows operations to be performed on the stored data
+
+It is **essential** that your server is _robust_ - you should detect and trap errors effectively
+and ensure that the server continues running at all times. Just imagine a world in which servers
+had to be manually restarted every time something unexpected was encountered.
+It's going to be very difficult for your server to pass the marking tests if it has crashed !
+
+Note that it is _not_ your responsibility to normalise the database - this is a job for
+developers who have designed the database schema and who make use of your database server.
+
+In addition, you will _not_ be required to implement the client-side features of the application.
+A database client will be provided for you to help you test your server.
+
+Note that your main class MUST be called `DBServer` and should provide a constructor with
+a single parameter (the port number on which to listen). 
+Don't change the name of the class or the signatures of any of the methods that already exist
+(or we won't be able to test your code !).
+We will be using automated marking scripts and if you server does not conform to the above,
+we won't be able to run it !
