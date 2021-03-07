@@ -55,7 +55,7 @@
 Notes:
 If the user doesn’t know a value or doesn’t wish to provide it, they must pass an empty String (i.e. there is no null)
 StringLiteral, TableName, ColumnName, DatabaseName are all purely alphanumeric sequences (i.e. a-z, A-Z, 0-9)
-StringLiterals may optionally include a range of punctuation EXCEPT single quotes and commas (and definitely not exotic UTF characters !)
+StringLiterals may optionally include a range of punctuation EXCEPT single quotes and tabs (and definitely not exotic UTF characters !)
 FloatLiterals are in standard notation (i.e. not scientific, not hexidecimal)
 The range of numbers (max and min) match those supported by the standard Java int and float types
 
