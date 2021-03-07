@@ -14,10 +14,10 @@ Each table should be stored in a separate file using TAB separated text.
 A <a href="resources/contact-details.tab" target="_blank">sample data file</a>
 has been provided for you to illustrate this approach.
 
-In order to load and save files to the file system, you will need to make use of the Java File API.
+In order to load and save files to the file system, you will need to make use of the Java File IO API.
 View the slides and video at the start of this section to get an overview of these packages.
 You may need to delve more deeply into the
-<a href="https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/io/package-summary.html" target="_blank">File API documentation</a> in order to implement your ideas.
+<a href="https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/io/package-summary.html" target="_blank">File IO API documentation</a> in order to implement your ideas.
 
 Your first practical task is to create a method that reads in data from the filesystem.
-Using the provided data file as a source of sample data, read in the rows using appropriate classes and methods from the Java File API. At this stage you need only print them out to the screen (in the following section you will store this data in a suitable data structure).
+Using the provided data file as a source of sample data, read in the rows using appropriate classes and methods from the Java File IO API. At this stage you need only print them out to the screen (in the following section you will store this data in a suitable data structure).
