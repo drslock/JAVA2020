@@ -1,0 +1,20 @@
+In previous workbooks we have introduced the fundamentals of the Java programming language.
+In the following weeks we'll cover some more specialised topics.
+The next few workbooks will focus on creating graphical applications using the JavaFX library.
+JavaFX has two main parts: "Canvas" & "Controls".
+In this current workbook we will start with the drawing Canvas.
+In a future workbook we will take a look at Controls (GUI Widgets).
+
+This topic is not an "assessed learning outcome" for this unit.
+As such, you will not be assessed on it.
+However, this topic might prove to be very valuable if you need a
+GUI for your individual project or in your future careers !
+
+JavaFX can be a little fiddly to install, your best bet is to start with
+<a href="https://openjfx.io/openjfx-docs/#install-javafx" target="_blank">this tutorial</a>.
+Alternatively you might find it easier to use Maven by following 
+<a href="https://openjfx.io/openjfx-docs/#maven" target="_blank">this tutorial</a>.
+
+For comprehensive documentation, see the full 
+<a href="https://docs.oracle.com/javafx/2/api/" target="_blank">JavaFX API</a>.
+It's fairly extensive, but is well structured (using the standard "JavaDoc" format).

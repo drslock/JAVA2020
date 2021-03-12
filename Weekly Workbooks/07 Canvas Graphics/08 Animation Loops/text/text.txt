@@ -1,0 +1,4 @@
+Animation is a common requirement for many types of graphical canvas application.
+Review the slides and video above to find out about timers and animation loops.
+The final video in the set shows an example animation that makes use of cyclic animation loops
+to achieve organic movement of articulated characters.

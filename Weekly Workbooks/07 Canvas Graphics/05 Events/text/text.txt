@@ -1,0 +1,7 @@
+Event handling is essential for graphical applications that require
+any form of user interaction (either via keyboard or mouse).
+Review the slides and video above to gain an understanding
+of the event mechanism in use within JavaFX.
+The final video above shows a demonstration of mouse and keyboard events
+being used to add interactivity to photographic imagery.
+We will leave it up to you to figure out how the shift in perspective is achieved !

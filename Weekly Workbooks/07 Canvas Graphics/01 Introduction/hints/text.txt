@@ -1,0 +1,1 @@
+Top tip: Just be beware of outdated tutorials on the Internet (written for older versions of JavaFX).

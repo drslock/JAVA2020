@@ -1,0 +1,4 @@
+The concept of "Sprite Sheets" is core to many game engine platforms.
+Java FX provides support for such constructs and permits simple animations to be created.
+View the slides and video animation above for a brief overview of sprite sheets
+and a demonstration of them in use to create a flocking simulation.

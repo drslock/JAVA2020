@@ -1,0 +1,3 @@
+Enough of the high-level theoretical and conceptual discussion - the slides and
+video above show how to actually implement the JavaFX application structure in code.
+In this video, we also illustrate how to use a range of basic canvas drawing primitives.

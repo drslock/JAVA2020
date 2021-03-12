@@ -1,0 +1,6 @@
+The concept of a drawing "canvas" is common to many languages and drawing frameworks, including
+HTML5, P5.js, JavaFX, D3, SDL, Processing to name but a few. Take a look through the slides and 
+video linked to above to gain an understand of canvas operation.
+Although our focus in this workbook is primarily on JavaFX,
+the high-level concepts are transferable to other frameworks
+(although the method names might differ to some extent).

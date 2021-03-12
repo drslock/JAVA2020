@@ -1,0 +1,4 @@
+In this final section, we bring together everything we have seen so far in this workbook into a final demonstration application that encompasses: 
+canvas drawing primitives, transformations, cyclic animation loops, user interaction and even dynamic data-driven visualisation. 
+The first video provides a piece-by-piece deconstruction of the animation, building it up from first principles. 
+The second of the two videos shows the final animation in action.

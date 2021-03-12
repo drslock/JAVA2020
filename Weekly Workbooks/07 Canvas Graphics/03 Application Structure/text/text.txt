@@ -1,0 +1,4 @@
+All JavaFX applications have a common structure - see the slides and
+video above for an overview and explanation of this structure.
+At this stage we are only interested in understanding the high-level concepts.
+In the following task we will look at how such a structure is actually achieved in code.

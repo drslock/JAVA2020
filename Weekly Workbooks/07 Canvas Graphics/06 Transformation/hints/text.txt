@@ -1,0 +1,11 @@
+Hover your mouse over the following button to reveal one possible 
+<img src="answer.jpg" title="
+   // Draw the grey box
+   g.setFill(Color.rgb(120, 120, 120));  
+   g.fillRect(40, 40, 30, 30);
+   // Draw the black box
+   g.translate(40, 40);
+   g.rotate(45);
+   g.setFill(Color.rgb(0, 0, 0));
+   g.fillRect(0, 0, 30, 30);
+" style="vertical-align:bottom" />

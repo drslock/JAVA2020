@@ -1,0 +1,5 @@
+Transformation is a key feature of canvas drawing platforms that enables
+more complex and sophisticated drawing to take place.
+Review the slides and audio narrations above to gain an understanding of
+transformations and the transformation stack.
+With this knowledge in mind, think about how you would achieve the following graphic:
