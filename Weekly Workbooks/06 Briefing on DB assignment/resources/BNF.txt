@@ -10,7 +10,7 @@
 
 <CreateDatabase> ::=  CREATE DATABASE <DatabaseName>
 
-<CreateTable>    ::=  CREATE TABLE <TableName> | CREATE TABLE <TableName> ( <AttributeList> )
+<CreateTable>    ::=  CREATE TABLE <TableName> | CREATE TABLE <TableName> (<AttributeList>)
 
 <Drop>           ::=  DROP <Structure> <StructureName>
 
@@ -18,7 +18,7 @@
 
 <Alter>          ::=  ALTER TABLE <TableName> <AlterationType> <AttributeName>
 
-<Insert>         ::=  INSERT INTO <TableName> VALUES ( <ValueList> )
+<Insert>         ::=  INSERT INTO <TableName> VALUES (<ValueList>)
 
 <Select>         ::=  SELECT <WildAttribList> FROM <TableName> |
                       SELECT <WildAttribList> FROM <TableName> WHERE <Condition> 
@@ -29,25 +29,25 @@
 
 <Join>           ::=  JOIN <TableName> AND <TableName> ON <AttributeName> AND <AttributeName>
 
-<NameValueList>  ::=  <NameValuePair> | <NameValuePair> , <NameValueList>
+<NameValueList>  ::=  <NameValuePair> | <NameValuePair>,<NameValueList>
 
-<NameValuePair>  ::=  <AttributeName> = <Value>
+<NameValuePair>  ::=  <AttributeName>=<Value>
 
 <AlterationType> ::=  ADD | DROP
 
-<ValueList>      ::=  <Value>  |  <Value> , <ValueList>
+<ValueList>      ::=  <Value> | <Value>,<ValueList>
 
-<Value>          ::=  '<StringLiteral>'  |  <BooleanLiteral>  |  <FloatLiteral>  |  <IntegerLiteral>
+<Value>          ::=  '<StringLiteral>' | <BooleanLiteral> | <FloatLiteral> | <IntegerLiteral>
 
 <BooleanLiteral> ::=  true | false
 
 <WildAttribList> ::=  <AttributeList> | *
 
-<AttributeList>  ::=  <AttributeName> | <AttributeName> , <AttributeList>
+<AttributeList>  ::=  <AttributeName> | <AttributeName>,<AttributeList>
 
-<Condition>      ::=  ( <Condition> ) AND ( <Condition> )  |
-                      ( <Condition> ) OR ( <Condition> )   |
-                      <AttributeName> <Operator> <Value>
+<Condition>      ::=  (<Condition>) AND (<Condition>)  |
+                      (<Condition>) OR (<Condition>)   |
+                      <AttributeName><Operator><Value>
 
 <Operator>       ::=   ==   |   >   |   <   |   >=   |   <=   |   !=   |   LIKE
 
