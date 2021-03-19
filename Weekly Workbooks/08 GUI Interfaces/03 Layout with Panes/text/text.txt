@@ -1,0 +1,5 @@
+An issue that we usually don't think about when _using_ a graphical interface is that of layout.
+For reasons we will see later, we can't just fix the position of widgets with absolute pixel coordinates.
+The slides and video above provide an introduction to positioning of widgets on a screen using containers
+called "panes". The nesting of these panes (one inside another) results in very complex code !
+This complexity is a common characteristic of GUI code - one which we will return to at the end of this workbook.

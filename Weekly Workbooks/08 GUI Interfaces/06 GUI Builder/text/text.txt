@@ -1,0 +1,6 @@
+As we have alluded to previously, the construction of Graphical User Interfaces
+is a complex activity that requires much work on the part of the developer.
+The code produced is often extensive and monotonous. Luckily there are various
+development tools available that can assist developers in quickly producing
+graphical interfaces. The slides and video above introduce "Scene Builder" - 
+a popular tool for the design and implementation of JavaFX Graphical User Interfaces.

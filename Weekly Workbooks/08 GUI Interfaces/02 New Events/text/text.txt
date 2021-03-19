@@ -1,0 +1,6 @@
+With a new form of user interaction comes the necessity for a new set of events
+and event handlers. This is a big area in GUI development - the slides and video
+above provide a short introduction to this area. To find out more information,
+you might like to explore the event features provided by different controls in the
+<a href="https://docs.oracle.com/javafx/2/api/javafx/scene/control/package-summary.html"
+target="_blank">JavaFX documentation</a>.

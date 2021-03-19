@@ -1,0 +1,5 @@
+Elegant resizing is something that we take for granted when using graphic user interfaces.
+However it involves a lot of thought and effort on the part of the developer to achieve.
+The slides and video above provide insight into the challenges faced in creating resizable
+interfaces and illustrates the use of different kinds of JavaFX layout pane as a mechanism
+to achieve controlled resizing. 

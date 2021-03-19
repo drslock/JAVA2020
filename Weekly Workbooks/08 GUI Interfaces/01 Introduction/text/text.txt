@@ -1,0 +1,9 @@
+Most complex applications have some kind of Graphical User Interface (GUI).
+Until this point in the Java unit, we have not considered how such interfaces are created.
+This workbook provides an introduction to this topic - again using JavaFX as the implementation framework.
+The slides and video above provide an provide an introduction to the building blocks of
+JavaFX GUI interfaces (called "Widgets" or "Controls").
+
+Although not assessed, this material may well be useful in your individual projects and in
+your future careers. So it is well worth engaging with now - even if it is to just watch
+the videos and try out a few examples.

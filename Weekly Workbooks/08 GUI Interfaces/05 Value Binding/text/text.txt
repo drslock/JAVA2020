@@ -1,0 +1,8 @@
+In a previous session we introduced the Model-View-Controller pattern.
+Synchronising the _view_ presented by a widget with the data _model_ it represents
+is an example of this pattern in action. This synchronisation can involved a fair bit
+of work on the part of the developer (especially if there are multiple views and controllers
+presenting and manipulating the data of a particular model).
+Luckily JavaFX provides us with an automated "value binding" facility that can reduce the
+amount of synchronisation code we need to write. Take a look at the slides and video above
+to find out how this mechanism works and how you might go about implementing this in your code.
