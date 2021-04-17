@@ -1,0 +1,9 @@
+As an extension to the basic game, you might like to add a "health level" feature.
+Each player should start with a health level of 3.
+Consumption of "Poisons & Potions" or interaction with beneficial or dangerous characters will increase or decrease a player's health.
+You will see in the "extended" actions file the use of the `health` keyword in the `consumed` and `produced` fields.
+
+When a player's health runs out (i.e. reaches zero) they should lose all of the items in their inventory
+(which are dropped in the location where they ran out of health) and then they should return to the start location.
+In order to implement these features in your game engine, you should also add a new `health` command keyword
+that reports back the player's current health level (so the player can keep track of it).

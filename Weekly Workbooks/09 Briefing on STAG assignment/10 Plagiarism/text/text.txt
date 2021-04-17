@@ -1,0 +1,16 @@
+You are encouraged to discuss assignments and possible solutions with other students.
+HOWEVER it is essential that you only submit your own work.
+This may feel like a grey area, however if you adhere to the following advice, you should be fine:
+
+- Never exchange code with other students (via IM/email, USB stick, GIT, printouts or photos !)
+- Although pair programming is encouraged in some circumstances, on this unit you must type your own work !
+- It's OK to seek help from online sources (e.g. Stack Overflow) but don't just cut-and-paste chunks of code...
+- If you don't understand what a line of code actually does, you shouldn't be submitting it !
+- Don't submit anything you couldn't re-implement under exam conditions (with a good textbook !)
+
+An automated checker will be used to flag any incidences of possible plagiarism.
+If the markers feel that intentional plagiarism has actually taken place, marks may be deducted.
+In serious or extensive cases, the incident may be reported to the faculty plagiarism panel.
+This may result in a mark of zero for the assignment, or perhaps even the entire unit
+(if it is a repeat offence).
+Don't panic - if you stick to the above list of advice, you should remain safe !

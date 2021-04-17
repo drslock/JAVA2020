@@ -1,0 +1,24 @@
+Your aim is to build a game engine server that communicates with one or more game clients.
+Your server must use a `ServerSocket` to listen on port 8888 for incoming socket connections.
+
+Upon receiving a connection, your server should accept an incoming command from the client
+and process the actions that have been requested. The server should process the command, change any game state that is required and send a suitable response back to the client. After processing the command from the client, your server MUST close the connection and then listen again for the next connection on port 8888. View the video linked above for a demonstration of communication in action.
+
+Don't panic: the basic networking operation is provided for you in a template
+<a href="resources/code/StagServer.java" target="_black">server class</a>.
+Additionally, you do not need to write the client as this is 
+<a href="resources/code/StagClient.java" target="_black">provided for you</a>.
+It is essential however that you DO NOT CHANGE the code in the client.
+The interactive client will be replaced by an automated test client when marking your work.
+If your server cannot communicate successfully with the client provided, it won't work with the testing scripts.
+
+It is intended for your game engine to be versatile so that it is able to play any game
+(that conforms to certain rules). To support this versatility, two configuration files
+(_entities_ and _actions_) are passed into the game server when it is run. For example:
+
+``` java
+java StagServer entities.dot actions.json
+```
+
+The server will load the game scenario in from these two files, allowing a range of different
+games to be played. During the marking process, we will be using custom game files in order to explore the full range of functionality in your code. It is therefore essential that your game engine allows these files to be passed in (otherwise we won't be able to test your code).

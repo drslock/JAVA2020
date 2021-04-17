@@ -1,0 +1,18 @@
+Your game should be able to operate with more than just a single player.
+In order to support this, each incoming command message will begin with a username
+(to identify which player has issued the command)
+
+A full incoming message might therefore take the form of:
+```
+Simon: open door with key
+```
+
+It is essential that when an incoming message is received, the command is applied to the correct player !
+
+Note that there is no need for your server to implement any form of authentication - 
+you can assume that the client handles this responsibility.
+You will however need to maintain game state for each player encountered
+(e.g. each player may be in a different location and will carry their own inventory of items etc.)
+
+Note that there is no formal player registration process - when the server encounters a command from
+a previously unseen user, a new player should be create in the start location of the game.

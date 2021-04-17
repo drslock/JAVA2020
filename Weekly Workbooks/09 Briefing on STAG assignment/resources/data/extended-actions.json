@@ -1,0 +1,69 @@
+{
+    "actions": [
+
+        {
+            "triggers": ["open", "unlock"],
+            "subjects": ["trapdoor", "key"],
+            "consumed": ["key"],
+            "produced": ["cellar"],
+            "narration": "You unlock the trapdoor and see steps leading down into a cellar"
+        },
+
+        {
+            "triggers": ["chop", "cut", "cutdown"],
+            "subjects": ["tree", "axe"],
+            "consumed": ["tree"],
+            "produced": ["log"],
+            "narration": "You cut down the tree with the axe"
+        },
+
+        {
+            "triggers": ["drink"],
+            "subjects": ["potion"],
+            "consumed": ["potion"],
+            "produced": ["health"],
+            "narration": "You drink the potion and your health improves"
+        },
+
+        {
+            "triggers": ["fight", "hit", "punch", "kick", "slap", "attack", "kill"],
+            "subjects": ["elf"],
+            "consumed": ["health"],
+            "produced": [],
+            "narration": "You attack the elf, but he fights back and you lose some health"
+        },
+
+        {
+            "triggers": ["pay"],
+            "subjects": ["elf", "coin"],
+            "consumed": ["coin"],
+            "produced": ["shovel"],
+            "narration": "You pay the elf your silver coin and he produces a shovel"
+        },
+
+        {
+            "triggers": ["bridge"],
+            "subjects": ["log", "river"],
+            "consumed": ["log"],
+            "produced": ["clearing"],
+            "narration": "You bridge the river with the log and can now reach the other side"
+        },
+
+        {
+            "triggers": ["dig"],
+            "subjects": ["ground", "shovel"],
+            "consumed": ["ground"],
+            "produced": ["hole", "gold"],
+            "narration": "You dig into the soft ground and unearth a pot of gold !!!"
+        },
+
+        {
+            "triggers": ["blow"],
+            "subjects": ["horn"],
+            "consumed": [],
+            "produced": ["lumberjack"],
+            "narration": "You blow the horn and as if by magic, a lumberjack appears !"
+        }
+
+    ]
+}

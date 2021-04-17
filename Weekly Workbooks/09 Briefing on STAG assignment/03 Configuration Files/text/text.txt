@@ -1,0 +1,21 @@
+The game description files passed into the server contain the following two aspects of the game:
+
+- Entities: "things" in the game, their structural layout and the relationships between them
+- Actions: the dynamic behaviours of the entities within the game
+
+Because these two types of data are very different in nature, we have chosen two different documents formats to represent them:
+
+- DOT: A language for expressing graphs (which is basically what a text adventure game is !)
+- JSON: A language for expressing structured data (which we will use to store the actions)
+
+You already have much experience of writing parsers ! We don't want to cover old ground,
+so you will NOT be required to build your own parsers for these document formats.
+Instead, you are able to use two existing parsing libraries. There is considerable educational value in learning to use existing libraries and frameworks in this way.
+
+For parsing DOT files you should use the
+<a href="http://www.alexander-merz.com/graphviz/doc.html" target="_blank">JPGD library</a>
+(a jar file of this library can be found <a href="resources/libs/dot-parser.jar" target="_blank">here</a>).
+For parsing JSON files you should use the
+<a href="http://alex-public-doc.s3.amazonaws.com/json_simple-1.1/index-all.html" target="_blank">JSON-simple library</a>
+(a jar file of this library can be found <a href="resources/libs/json-parser.jar" target="_blank">here</a>).
+To illustrate how parsing libraries may be used, a <a href="resources/code/GraphParserExample.java" target="_blank">rough code fragment</a> is provided to illustrate reading in and printing out the content of DOT files. Note that this example is very "raw" code - you will need to refactor it if you make use of it in your own project.

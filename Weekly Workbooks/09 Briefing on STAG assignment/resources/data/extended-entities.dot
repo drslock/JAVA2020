@@ -1,0 +1,99 @@
+digraph layout {
+    /* ortho splines just makes the arrows into straight lines (rather than curvy ones !) */
+    splines = ortho;
+    /* space everything out a bit to make it easier to see (for larger models) */
+    graph [ranksep="1" nodesep="1"];
+    node [shape = "rect"];
+
+    subgraph locations {
+
+        subgraph cluster001 {
+            node [shape = "none"];
+            cabin [description = "A log cabin in the woods"];
+            subgraph artefacts {
+                node [shape = "diamond"];
+                potion [description = "A bottle of magic potion"];
+                axe [description = "A razor sharp axe"];
+                coin [description = "A silver coin"];
+            }
+            subgraph furniture {
+                node [shape = "hexagon"];
+                trapdoor [description = "A locked wooden trapdoor in the floor"];
+            }
+        }
+
+        subgraph cluster002 {
+            node [shape = "none"];
+            forest [description = "A deep dark forest"];
+            subgraph artefacts {
+                node [shape = "diamond"];
+                key [description = "A rusty old key"];
+            }
+            subgraph furniture {
+                node [shape = "hexagon"];
+                tree [description = "A tall pine tree"];
+            }
+        }
+
+        subgraph cluster003 {
+            node [shape = "none"];
+            cellar [description = "A dusty cellar"]
+            subgraph characters {
+                node [shape = "ellipse"];
+                elf [description = "An angry looking Elf"];
+            }
+        }
+
+        subgraph cluster004 {
+            node [shape = "none"];
+            riverbank [description = "A grassy riverbank"]
+            subgraph artefacts {
+                node [shape = "diamond"];
+                horn [description = "An old brass horn"];
+            }
+            subgraph furniture {
+                node [shape = "hexagon"];
+                river [description = "A fast flowing river"];
+            }
+        }
+
+        subgraph cluster005 {
+            node [shape = "none"];
+            clearing [description = "A clearing in the woods"]
+            subgraph furniture {
+                node [shape = "hexagon"];
+                ground [description = "It looks like the soil has been recently disturbed"];
+            }
+        }
+
+        subgraph cluster999 {
+            node [shape = "none"];
+            unplaced [description = "Storage for any entities not placed in the game"]
+            subgraph characters {
+                node [shape = "ellipse"];
+                lumberjack [description = "A burly wood cutter"];
+            }
+            subgraph artefacts {
+                node [shape = "diamond"];
+                log [description = "A heavy wooden log"];
+                shovel [description = "A sturdy shovel"];
+                gold [description = "A big pot of gold"];
+            }
+            subgraph furniture {
+                node [shape = "hexagon"];
+                hole [description = "A deep hole in the ground"];
+            }
+        }
+
+    }
+
+    subgraph paths {
+        cabin -> forest;
+        forest -> cabin;
+        cellar -> cabin;
+        forest -> riverbank
+        riverbank -> forest
+        clearing -> riverbank
+    }
+
+}

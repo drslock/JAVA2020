@@ -1,0 +1,45 @@
+Each game consists of a number of different "entities" (as described in the "entities.dot" file).
+There are a number of different types of entity, including:
+- Locations: Rooms or places within the game
+- Artefacts: Physical "things" within the game
+(that can be collected by the player)
+- Furniture: Physical "things" that are an integral part of a location
+(they can NOT be collected by the player)
+- Characters: Creatures or people involved in game
+- Players: A special kind of character that represents the user !
+
+All entities need at least a name and a description, some may need additional attributes as well.
+It is worth mentioning that any entity names defined in the configuration files will be unique.
+You won't have to deal with two things called "door" (Although your might see a "blue-potion" and a "red-potion").
+As such, you can safely use entity names as unique identifiers.
+
+It is worth noting that "Locations" are complex constructs and as such
+have various different attributes in their own right, including:
+- Paths to other Locations
+(note: it is possible for paths to be one-way !)
+- Characters that are currently at a Location
+- Artefacts that are currently present in a Location
+- Furniture that belongs in a Location
+
+Take a look at the video at the top of this section for a walkthrough of an example entity file.
+This should hopefully provide you with a clearer idea of the nature and use of such entities files.
+
+We have provided a couple of example entity files for you to use in your project.
+Firstly there is a <a href="resources/data/basic-entities.dot" target="_blank">basic entities file</a>
+to help get you started in constructing your game engine.
+We have also provided an <a href="resources/data/extended-entities.dot" target="_blank">extended entities file</a> that can be used to for more extensive testing during the later stages of your work.
+
+Note that every game has a "special" location that is the starting point for an adventure.
+This starting point is always the first location that is encountered when reading in the "entities" file.
+
+There is another special location called "unplaced" that can be found in the entities file.
+This location does not appear in the game world, but is rather a container for all of the entities
+that have no initial location. They need to exist somewhere in the game structure so that they can be defined,
+but they do not enter the game until an action places then in another location within the game.
+
+The big benefit of using DOT files to store game entities is that that are numerous existing tools
+for visualising them - we can SEE the structure of the game configuration.
+The image below visually shows the structure of the basic entities file.
+As you can see, each location is represented by a box containing a number of different entities
+(each type of entity being represented by a different shape). The paths between locations are also
+presented as directed arrows.

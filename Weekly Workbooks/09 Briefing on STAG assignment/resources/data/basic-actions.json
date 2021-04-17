@@ -1,0 +1,36 @@
+{
+    "actions": [
+
+        {
+            "triggers": ["open", "unlock"],
+            "subjects": ["door", "key"],
+            "consumed": ["key"],
+            "produced": ["cellar"],
+            "narration": "You unlock the door and see steps leading down into a cellar"
+        },
+
+        {
+            "triggers": ["chop", "cut", "cutdown"],
+            "subjects": ["tree", "axe"],
+            "consumed": ["tree"],
+            "produced": ["log"],
+            "narration": "You cut down the tree with the axe"
+        },
+
+        {
+            "triggers": ["drink"],
+            "subjects": ["potion"],
+            "consumed": ["potion"],
+            "produced": ["health"],
+            "narration": "You drink the potion and your health improves"
+        },
+
+        {
+            "triggers": ["fight", "hit", "punch", "kick", "slap", "attack", "kill"],
+            "subjects": ["elf"],
+            "consumed": ["health"],
+            "produced": [],
+            "narration": "You attack the elf, but he fights back and you lose some health"
+        }
+    ]
+}

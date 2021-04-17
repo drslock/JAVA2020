@@ -1,0 +1,21 @@
+Dynamic behaviours within the game are represented by "Actions", each of which has following elements:
+
+- A set of possible "trigger" words (ANY of which can be used to initiate the action)
+- A set of "subjects" entities that are acted upon (ALL of which need to be present to perform the action)
+- A set of "consumed" entities that are all removed ("eaten up") by the action
+- A set of "produced" entities that are all created ("generated") by the action
+
+Note that "being present" requires the entity to _either_ be in the inventory of the player invoking the action
+_or_ for that entity to be in the room/location where the action is being performed.
+
+The above description of actions might not make much sense out of context, however they should become a lot
+clearer with an example ! Take a look at the video at the top of this section for a walkthrough of a specific example.
+
+It is worth noting that action names are NOT unique - for example there may be multiple "open" actions that
+act on different entities. So be careful when storing and accessing actions.
+
+We have provided a couple of example action files for you to use in the development of your project.
+Firstly there is a <a href="resources/data/basic-actions.json" target="_blank">basic actions file</a>
+to help get you started in constructing your game engine.
+We have also provide an <a href="resources/data/extended-actions.json" target="_blank">extended actions file</a>
+that can be used for more extensive testing during the later stages of your work.

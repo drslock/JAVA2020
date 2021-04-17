@@ -1,0 +1,59 @@
+digraph layout {
+    /* ortho splines just makes the arrows into straight lines (rather than curvy ones !) */
+    splines = ortho;
+    node [shape = "rect"];
+
+    subgraph locations {
+        subgraph cluster001 {
+            node [shape = "none"];
+            start [description = "An empty room"];
+            subgraph artefacts {
+                node [shape = "diamond"];
+                potion [description = "Magic potion"];
+            }
+            subgraph furniture {
+                node [shape = "hexagon"];
+                door [description = "Wooden door"];
+            }
+        }
+
+        subgraph cluster002 {
+            node [shape = "none"];
+            forest [description = "A dark forest"];
+            subgraph artefacts {
+                node [shape = "diamond"];
+                key [description = "Brass key"];
+            }
+        }
+
+        subgraph cluster003 {
+            node [shape = "none"];
+            cellar [description = "A dusty cellar"]
+            subgraph characters {
+                node [shape = "ellipse"];
+                elf [description = "Angry Elf"];
+            }
+        }
+
+        subgraph cluster999 {
+            node [shape = "none"];
+            unplaced [description = "Storage for any entities not placed in the game"]
+            subgraph characters {
+                node [shape = "ellipse"];
+            }
+            subgraph artefacts {
+                node [shape = "diamond"];
+            }
+            subgraph furniture {
+                node [shape = "hexagon"];
+            }
+        }
+    }
+
+    subgraph paths {
+        start -> forest;
+        forest -> start;
+        cellar -> start;
+    }
+
+}

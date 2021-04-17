@@ -1,0 +1,25 @@
+In order to communicate with the server, we need an agreed language
+(otherwise the user won't know what to type to interact with the game !)
+There are a number of standard "built-in" gameplay commands that your game engine should respond to:
+
+- "inventory" (or "inv" for short): lists all of the artefacts currently being carried by the player
+- "get": picks up a specified artefact from current location and puts it into player's inventory
+- "drop": puts down an artefact from player's inventory and places it into the current location
+- "goto": moves from one location to another (if there is a path between the two)
+- "look": describes the entities in the current location and lists the paths to other locations
+
+It is essential that you conform to this standard set of commands,
+otherwise it won't be possible to play your game
+(and your game engine will fail some of the marking tests !)
+
+In addition to the standard "built-in" commands, your game engine should also accept ANY of the
+trigger keywords from the loaded-in game actions file. You should first verify that the conditions
+hold to perform the action (i.e. ALL "Subject" entities are available to the player). You must then undertake the relevant additions/removals (consumption/production). Be sure to make your command interpreter as flexible and robust as possible (to deal with "varied" input from the user !)
+
+The skeleton StagServer class you have been given includes the code to deal with network communication.
+You will however be required to deal with reading and writing to the socket stream.
+You can either use <a href="https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/io/BufferedReader.html" target="_blank">Buffered Readers</a> and <a href="https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/io/BufferedWriter.html" target="_blank">Buffered Writers</a> as we did with the DB assignment. Or you may like to take this opportunity to explore the 
+<a href="https://docs.oracle.com/javase/8/docs/api/java/nio/package-summary.html" target="_blank">
+Non-block IO (NIO) API</a>
+
+

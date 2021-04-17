@@ -1,0 +1,14 @@
+A special set of custom game description files will be used to assess your game.
+It is therefore essential your code is able to parse files in the same format as the examples provided !
+Scripts will be used to automatically test your game engine to make sure it is operating correctly.
+It is therefore essential that you adhere to the gameplay commands detailed previously in this workbook !
+You should also ensure that you do not change the name of your main class - it must be called `StagServer`,
+if not the marking script will not be able to find it !
+
+This assignment is an opportunity to explore Java in detail and there are a range of interesting alternative avenues you might take in implementing this project. You might like to consider employing a range of design patterns (as described in the weekly workbooks).
+The Java Core API and Collections package also contains various useful data structures you might like to use.
+
+Note that the "quality" of your code will be taken into account when assessing your work.
+The code quality metrics outlined earlier in this unit will be used to derive your final mark.
+It is important therefore to adhere to the structure and style guidelines outlined in the previous workbooks.
+It is especially important to take heed of the quality feedback advice you have received from previous exercises.
