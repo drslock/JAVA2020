@@ -5,6 +5,9 @@ It is therefore essential that you adhere to the gameplay commands detailed prev
 You should also ensure that you do not change the name of your main class - it must be called `StagServer`,
 if not the marking script will not be able to find it !
 
+We have provided an <a href="resources/code/StagCheck.java" target="_blank">automated checking tool</a>
+that can be used to verify the testing script can find, run and communicate with your server.
+
 This assignment is an opportunity to explore Java in detail and there are a range of interesting alternative avenues you might take in implementing this project. You might like to consider employing a range of design patterns (as described in the weekly workbooks).
 The Java Core API and Collections package also contains various useful data structures you might like to use.
 
