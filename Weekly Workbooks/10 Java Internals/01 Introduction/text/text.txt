@@ -1,0 +1,3 @@
+In this workbook we introduce some more complex "internal workings" of Java and our first design pattern.
+You may not need all of them to be able to complete the assignments, 
+but you may find it useful in some situations to know what is going on "under the hood"

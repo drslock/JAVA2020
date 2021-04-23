@@ -1,0 +1,7 @@
+This is a formative task, no submission is required, it should take no longer than 2 hours to complete. Use the lab sessions/Discussion Forum tab in Teams to ask questions and get feedback.
+
+This tiny project will introduce you to the JUnit testing frameword and give you a first experience in using inheritance, overloading, overriding, polymorphism and multiple dynamic dispatch.
+
+We have provided a tiny skeleton project for you to work with. The project includes a set of .java files and a testing suite, which you can use to make sure your project does what it is meant to - you can check your coursework this way continuously whilst developing and find out where things need fixing and when you have arrived at a fully working solution!
+
+You can download the skeleton and get detailed instructions [here](06%20Zoo%20assignment/md/zoo.md)

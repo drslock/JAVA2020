@@ -1,0 +1,5 @@
+Concepts: abstract classes,  multiple dynamic dispatch, overriding, operation decoupling, Visitor pattern, class diagram basics
+
+So the great thing about the visitor pattern is that you can use it on dynamic structures like trees as well as the static structures we looked at previously, the credit cards. In this lecture we’ll see how any operations a binary tree may be defined independently from the object structure itself. Specifically, the operations will be encapsulated in a separate object which we shall call the Visitor …
+
+Code example is provided for <a href="https://www.ole.bris.ac.uk/bbcswebdav/courses/COMSM0086_2020_TB-2/code_snippets/tree_visitor.zip" target="_blank">tree visitor</a> 

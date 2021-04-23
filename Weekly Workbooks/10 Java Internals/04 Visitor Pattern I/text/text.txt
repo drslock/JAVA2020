@@ -1,0 +1,5 @@
+Concepts: abstract classes,  multiple dynamic dispatch, overriding, operation decoupling, Visitor pattern, class diagram basics
+
+The Visitor Pattern facilitates the addition of new operations to existing object structures without modifying those structures (maybe look up open closed principle). A visitor class is created that implements all of the appropriate specializations. The visitor takes the instance reference as input, and implements the goal through double dispatch.
+
+Code examples are provided for <a href="https://www.ole.bris.ac.uk/bbcswebdav/courses/COMSM0086_2020_TB-2/code_snippets/mammal_visitor.zip" target="_blank">mammal visitor</a> and <a href="https://www.ole.bris.ac.uk/bbcswebdav/courses/COMSM0086_2020_TB-2/code_snippets/credit_card_visitor.zip" target="_blank">credit card visitor</a>

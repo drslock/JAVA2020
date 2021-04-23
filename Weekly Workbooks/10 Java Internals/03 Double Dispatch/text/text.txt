@@ -1,0 +1,5 @@
+Concepts: abstract classes, multiple dynamic dispatch, overriding, operation decoupling, Visitor pattern, class diagram basics, procedural vs OO multiple dispatch
+
+If you liked single dispatch and polymorphism, you'll love double dispatch. Double dispatch dispatches calls to different concrete methods depending on the runtime types of the two objects involved in the call: dispatch based on 2 types. For example, consider collisions between two game objects which are both referred to by the same abstract superclass. The references are of the same type, but the underlying objects could be drawn from a variety of subclasses. How can we exploit polymorphism to handle these interactions in a seamless way?
+
+Code examples are provided for <a href="https://www.ole.bris.ac.uk/bbcswebdav/courses/COMSM0086_2020_TB-2/code_snippets/rock_paper_scissors2021.zip" target="_blank">rock, paper, scissors</a> and <a href="https://www.ole.bris.ac.uk/bbcswebdav/courses/COMSM0086_2020_TB-2/code_snippets/MammalInteraction2021.zip" target="_blank">mammal interactions</a>
