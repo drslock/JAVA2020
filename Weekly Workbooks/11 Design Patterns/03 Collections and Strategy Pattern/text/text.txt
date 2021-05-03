@@ -1,0 +1,7 @@
+Concepts: Inner Classes, Anonymous Classes, Collections, JCF, Lists, Initialisations, Comparable, Comparators, Sorting, Strategy Pattern
+
+According to Wikipedia: "the strategy pattern (also known as the policy pattern) is a behavioural software design pattern that enables selecting an algorithm at runtime". In this lecture we'll look at sorting collections of objects based on different properties of those objects and we'll see how the strategy pattern can help. Along the way we'll cover some aspects of generics in a lot more depth, initialiser blocks, and again make use of abstract types, and anonymous inner classes extensively. This lecture will stretch your understanding of Java fundamentals.
+
+Code example is provided for <a href="https://www.ole.bris.ac.uk/bbcswebdav/courses/COMSM0086_2020_TB-2/code_snippets/Strategy.zip" target="_blank">strategy pattern</a> 
+
+

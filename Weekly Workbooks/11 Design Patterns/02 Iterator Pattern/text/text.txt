@@ -1,0 +1,7 @@
+Concepts: Abstract Types, Inner Classes, Anonymous Classes, Sets, Concrete Sets, Iterators, Iterator Pattern
+
+The iterator pattern is a behavioural design pattern used to traverse a collection comprised of a number of elements in such a way as not to expose its underlying representation (the array / linked list / binary tree etc. used to store its elements). By the end of this lecture, you will understand how for loops employing the colon notation work and will be able to implement your own custom iterable collections. This lecture will also solidify your understanding of abstract types, polymorphism and anonymous inner classes which are fundamental to a deep understanding of Java’s features.
+
+Code example is provided for <a href="https://www.ole.bris.ac.uk/bbcswebdav/courses/COMSM0086_2020_TB-2/code_snippets/Iterator.zip" target="_blank">iterator pattern</a> 
+
+
